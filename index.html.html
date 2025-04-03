@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerin Books</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style5.css">
+    <style>
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .categories li {
+            list-style: none;
+            background: #f4b400;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .categories li:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Jerin Books</h1>
+    
+    <h2>Book Categories</h2>
+    <ul class="categories">
+        <li>Science Fiction</li>
+        <li>Classics</li>
+        <li>Adventure</li>
+        <li>Thriller</li>
+        <li>History</li>
+        <li>Technology</li>
+    </ul>
+    
+    <p><a href="register7.html" class="blink">New Registration</a></p>
+
+    <h2>Popular this week</h2>
+    <div class="book-gallery">
+        <div class="book-item">
+            <img src="https://books.disney.com/content/uploads/2014/06/0786856297.jpg" alt="Percy Jackson & The Olympians">
+            <p style="font-family: 'Arial', sans-serif; color: white; font-size: 18px; font-weight: bold;">
+                Percy Jackson series
+            </p>
+            
+        </div>
+        <div class="book-item">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/2_States_-_The_Story_Of_My_Marriage.jpg" alt="2 States">
+            <p style="font-family: 'Arial', sans-serif; color: rgb(254, 252, 252); font-size: 18px; font-weight: bold;">
+                2 states
+            </p>
+            
+        </div>
+        <div class="book-item">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/af/Randamoozham_30th_edition_cover.jpg" alt="Randamoozham">
+            <p style="font-family: 'Arial', sans-serif; color: white; font-size: 18px; font-weight: bold;">
+                Randamoozham
+            </p>
+            
+        </div>
+        <div class="book-item">
+            <img src="https://images.blinkist.io/images/books/646b5ef1748d0f00088f2098/1_1/470.jpg" alt="Blink">
+            <p style="font-family: 'Arial', sans-serif; color: rgb(248, 246, 246); font-size: 18px; font-weight: bold;">
+                War and Peace
+            </p>
+            
+        </div>
+    </div>
+
+    <h2>Annual Day Countdown</h2>
+    <p id="countdown">Loading...</p>
+
+    <script src="script5.js"></script>
+</body>
+</html>
